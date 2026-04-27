@@ -80,14 +80,14 @@ public class Counter {
 			
 	}
 	
-	public int calcularCantidadDeDigitosPares(int num) {
-		
-		digitosParesHA= 0
-		
-				
-				
-		
-	}
+//	public int calcularCantidadDeDigitosPares(int num) {
+//		
+//		digitosParesHA= 0
+//		
+//				
+//				
+//		
+//	}
 	
 	//Obtengo el último dígito de un numero
 	
