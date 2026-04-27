@@ -9,7 +9,14 @@ public class Supermercado {
 	private ArrayList<Producto> productos = new ArrayList<Producto>();
 	
 	public Supermercado(String nombre, String direccion) {
+		this();
+		this.setNombre(nombre);
+		this.setDireccion(direccion);
 		
+	}
+
+	public Supermercado() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public String getNombre() {
@@ -36,7 +43,7 @@ public class Supermercado {
 		this.productos = productos;
 	}
 
-	public Integer getCantidadDeProductos() {
+	public Integer cantidadDeProductos() {
 		return (int) productos.stream().count();
 	}
 
@@ -44,10 +51,10 @@ public class Supermercado {
 		productos.add(producto);
 	}
 
-	public Double getPrecioTotal() {
+	public Double precioTotal() {
 		
 		return productos.stream()
-						.mapToDouble(producto -> producto.getPrecio())
+						.mapToDouble(producto -> producto. getPrecio())
 						.sum();
 	}
 	
