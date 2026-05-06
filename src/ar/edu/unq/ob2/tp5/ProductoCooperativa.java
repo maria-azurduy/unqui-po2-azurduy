@@ -1,4 +1,4 @@
-package ar.edu.unq.obj2.tp5;
+package ar.edu.unq.ob2.tp5;
 
 public class ProductoCooperativa extends Producto {
 	
