@@ -20,7 +20,9 @@ public class Counter {
 
 	public int getEvenOcurrences() {
 		
-		return (int) numbers.stream().filter(number -> this.isEven(number)).count();
+		return (int) numbers.stream()
+				.filter(number -> this.isEven(number))
+				.count();
 		
 		
 	}
@@ -80,14 +82,6 @@ public class Counter {
 			
 	}
 	
-//	public int calcularCantidadDeDigitosPares(int num) {
-//		
-//		digitosParesHA= 0
-//		
-//				
-//				
-//		
-//	}
 	
 	//Obtengo el último dígito de un numero
 	
@@ -98,39 +92,38 @@ public class Counter {
 	
 	//Eliminar el último dígito de un numero
 	
-		public int eliminarUltimoDigito(int num) {
+	public int eliminarUltimoDigito(int num) {
 			
-			return num / 10;
+		return num / 10;
+	}
+	
+	public int cantidadDigitosPares(int unNumero) {
+		
+		int cantPares=0;
+		int numero = unNumero;
+		int digito;
+		
+		while(numero > 0){
+			digito = numero % 10;
+			
+			if (this.isEven(digito)) {
+				cantPares += 1;
+			}
+			
+			numero = numero / 10;
 		}
-}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*		
-		//obtengo el 1er numero de mi lista
-		numbers.getFirst().
-		
-		//cuento por cada digito del numero, si es par y lo voy sumando en un contador
-		
-		//paso al siguiente numero de la lista
-		
-		//
-		
-		
-		
-		
+		return cantPares;
 		
 	}
 	
-*/
+}
+		
+	
+		
+		
+	
+	
+
 	
 	
