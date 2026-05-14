@@ -18,7 +18,7 @@ class SongTest {
 	@Test
 	void testProbandoPlayEnSeleccionDeCanciones() {
 		song.play();
-		assertEquals(song.getEstado(),);
+		assertEquals(song.getEstado(), EstadoReproduciendo);
 	}
 	
 	

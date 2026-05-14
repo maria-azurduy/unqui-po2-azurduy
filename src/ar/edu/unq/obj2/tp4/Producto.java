@@ -1,4 +1,4 @@
-package ar.edu.unq.ob2.tp4;
+package ar.edu.unq.obj2.tp4;
 
 public class Producto {
 	

@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ar.edu.unq.ob2.tp3.Counter;
+import ar.edu.unq.obj2.tp3.Counter;
 
 public class CounterTest {
 	
