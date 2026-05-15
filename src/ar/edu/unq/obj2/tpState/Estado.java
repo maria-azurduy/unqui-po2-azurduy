@@ -8,4 +8,6 @@ public interface Estado {
 	
 	public void stop();
 	
+	public void setSong(Song song);
+	
 }

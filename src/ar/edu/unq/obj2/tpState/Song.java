@@ -4,10 +4,9 @@ public class Song {
 	
 	private Estado estado;
 
-	public void play() {
-		// TODO Auto-generated method stub
-		
-	}
+	public void play() {}
+	public void pause() {}
+	public void stop() {}
 
 	public Estado getEstado() {
 		return estado;

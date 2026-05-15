@@ -20,4 +20,10 @@ public class EstadoReproduciendo implements Estado {
 
 	}
 
+	@Override
+	public void setSong(Song song) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
